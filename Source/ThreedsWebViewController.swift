@@ -1,5 +1,8 @@
 import UIKit
+
+#if os(iOS)
 import WebKit
+#endif
 
 /// A view controller to manage 3ds
 public class ThreedsWebViewController: UIViewController,
